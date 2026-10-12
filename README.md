@@ -31,7 +31,7 @@ cp backend/.env.example backend/.env
 Key environment configurations in `backend/.env`:
 ```ini
 # Database (Auto-falls back to SQLite if PostgreSQL is unreachable)
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/sap_assistant
+DATABASE_URL=
 
 # JWT Security
 JWT_SECRET=sap-super-secret-jwt-key-2026-production-ready
