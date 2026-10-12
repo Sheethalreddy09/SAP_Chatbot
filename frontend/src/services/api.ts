@@ -1,6 +1,6 @@
 import type { User, Chat, Message, Citation, WebSource } from '../types';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8005/api';
 
 export const getStoredToken = (): string | null => {
   return localStorage.getItem('sap_assistant_token');
